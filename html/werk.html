@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Michael Stonebraker - Werk</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link href="../styles.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href='../img/favicon.png' />
+</head>
+
+<body>
+  <header>
+    <nav class='wrapper'>
+      <ul class="mnu">
+        <li class="mnu_item"><a href="../index.html">Home</a></li>
+        <li class="mnu_item"><a href="alan.html">Alan Turing</a></li>
+        <li class="mnu_item"><a href="claude.html">Claude Shannon</a></li>
+        <li class="mnu_item"><a href="alonzo.html">Alonzo Church</a></li>
+        <li class="mnu_item">
+          <div class="dropdown">
+            <button class='mnubtn'>Michael Stonebraker</button>
+            <div class="dropdown-content">
+              <a href="./levensloop.html">Levensloop</a>
+              <a href="#" id='home'>Werk</a>
+              <a href="./databases.html">Databases</a>
+            </div>
+          </div>
+        </li>
+        <li class="mnu_item"><a href="turing_award.html">Turing Award</a></li>
+        <li class="mnu_item"><a href="about.html">Over ons</a></li>
+        <li class="mnu_item"><a href="contact.htm">Contact</a></li>
+      </ul>
+      <div class='burger' onclick='collapseMenu(); removeInfo();'>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <div class="text">
+    <h1>Werk</h1>
+    <br />
+    <article>
+      <h2>Databases</h2>
+      <br />
+      <p>
+        Zoals al beschreven is, deed Stonebraker onder andere onderzoek naar
+        relational databases. Hij heeft ook, samen met anderen, nieuwe
+        datamodellen ontworpen. <br> Om te beginnen is het handig om te weten wat
+        databases zelf zijn. Klik <a class='click' href="databases.html">hier</a> om meer
+        over databases te weten te komen.
+      </p>
+      <br />
+      <h2>INGRES</h2>
+      <br />
+      <p>
+        INGRES is gebaseerd op DEC machines. Er werden twee operating systems
+        gebruikt, <a href="http://bit.ly/362yzfS" class='click' target="_blank">UNIX</a> en
+        <a href="http://bit.ly/365ul72" class='click' target="_blank">VAX/VMS</a>. <br> De code is
+        geschreven in de programmeertaal C. INGRES was één van de eerste
+        systemen die gebruik maken van relational databases. <br> INGRES werd naar
+        de markt gebracht, waar mensen konden betalen om het systeem te kunnen
+        gebruiken.
+      </p>
+      <br />
+      <h2>POSTGRES</h2>
+      <br />
+      <p>
+        Zijn tweede project, POSTGRES, was een verbetering op INGRES. POSTGRES
+        bood object relational programming aan. <br> Object relational programming
+        is een vorm van relational programming (normale gebruik van
+        relationele databases) met objects, classes en inheritance. <br> Classes
+        definiëren het algemene gedrag van instances, objects van classes. Een
+        object is iets wat wordt gemaakt met behulp van <br> de code van een class.
+        Instances kunnen buiten de class om worden uitgebreid. Inheritance is
+        het overnemen van de code van een parentclass door een <br> childclass (een
+        parentclass is een class waarop een tweede class, de childclass, is
+        gebaseerd). Het object relational programming model van <br> POSTGRES liet
+        complexe datatypes gedragen als een gewoon veld in een tabel.
+        Stonebraker bracht ook POSTGRES naar de markt. Veel bedrijven, niet <br>
+        opgericht door Stonebraker, zijn gebaseerd op de INGRES- en
+        POSTGRES-projecten. Voornamelijk Stonebrakers oud-studenten maakten
+        gebruik van deze projecten.
+      </p>
+      <br />
+      <h2>Verdere projecten</h2>
+      <br />
+      <p>
+        Na het POSTGRES-project startte nam Stonebraker deel aan het
+        Mariposa-project. In dit project werd een federale database gebouwd
+        die data over handel op zou slaan. <br> Bij een federale database zijn er
+        meerdere databases die allemaal met elkaar verbonden zijn, alle
+        databases zijn dus toegankelijk voor elk systeem. Ook dit project werd
+        bruikbaar voor consumenten. <br /><br />
+        Hierna nam Stonebraker deel aan het Aurora-project. Tijdens dit
+        project ontwikkelde zijn team een data management system voor
+        streaming data. Hierbij werd ook een nieuwe query-taal ontwikkeld.
+        <br /><br />
+        In 2005 nam Stonebraker deel aan het C-store-project, in 2006 het
+        Morpheus-project, in 2007 het H-store-project en later, in 2008,
+        startte Stonebraker, samen met collega’s, een publieke database voor
+        wetenschappelijk onderzoek. <br> Stonebraker richtte zijn meest recente
+        bedrijf, Tamr, op in 2013, samen met Ihab Ilyas en Andy Palmer.
+      </p>
+      <br />
+      <h2>Invloed op maatschappij (toepassingen)</h2>
+      <br />
+      <p>
+        Stonebrakers onderzoek en uitvindingen hebben veel invloed op de
+        maatschappij en commerciële wereld. Bijna de hele online-industrie
+        gebruikt relationele databases. <br> Denk maar eens aan webwinkels of een
+        bank, de online bank is bijna in z’n geheel een database. Ook worden
+        deze databases gebruikt in je telefoon of door je provider.
+      </p>
+      <br />
+      <h2>Partners</h2>
+      <br />
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Partner(s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>INGRES</td>
+              <td>Eugene Wong</td>
+            </tr>
+            <tr>
+              <td>POSTGRES</td>
+              <td>Larry Rowe</td>
+            </tr>
+            <tr>
+              <td>Mariposa</td>
+              <td>Mariposa & Cohera</td>
+            </tr>
+            <tr>
+              <td>Aurora & StreamBase</td>
+              <td>Brandeis University, Brown University & MIT</td>
+            </tr>
+            <tr>
+              <td>C-store</td>
+              <td>Brandeis University, Brown University, MIT & University of Massuchusetts Boston</td>
+            </tr>
+            <tr>
+              <td>Morpheus</td>
+              <td>Collega’s van de University of Florida</td>
+            </tr>
+            <tr>
+              <td>H-store</td>
+              <td>MIT, University of Yale & University of Brown</td>
+            </tr>
+            <tr>
+              <td>SciDB</td>
+              <td>David DeWitt, University of Brown, MIT, Portland State University, SLAC, the University of
+                Washington
+                & the University of Wisconsin-Madison</td>
+            </tr>
+            <tr>
+              <td>Tamr</td>
+              <td>Ihab Ilyas en Andy Palmer</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  <footer>
+    <p>Meer weten? Lees dan verder op
+      <a class='wiki' href="http://bit.ly/350ksWX" target="_blank">wikipedia</a>
+    </p>
+  </footer>
+</div>
+  <script src='../scoop.js'></script>
+</body>
+
+</html>

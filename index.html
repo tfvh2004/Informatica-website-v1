@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Grondleggers van de informatica</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+  <link href="./styles.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href='./img/favicon.ico' />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="mnu mnu-tog">
+        <li class="mnu_item" id='home'><a href="#">Home</a></li>
+        <li class="mnu_item"><a href="html/alan.html">Alan Turing</a></li>
+        <li class="mnu_item"><a href="html/claude.html">Claude Shannon</a></li>
+        <li class="mnu_item"><a href="html/alonzo.html">Alonzo Church</a></li>
+        <li class="mnu_item" id='dropdown-li'>
+          <div class="dropdown">
+            <button class='mnubtn'>Michael Stonebraker</button>
+            <div class="dropdown-content">
+              <a href="./html/levensloop.html">Levensloop</a>
+              <a href="./html/werk.html">Werk</a>
+              <a href="./html/databases.html">Databases</a>
+            </div>
+          </div>
+        </li>
+        <li class="mnu_item"><a href="html/turing_award.html">Turing Award</a></li>
+        <li class="mnu_item"><a href="html/about.html">Over ons</a></li>
+        <li class="mnu_item"><a href="html/contact.htm">Contact</a></li>
+      </ul>
+      <div class='burger' onclick='collapseMenu(); removeInfo();'>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+  <div class="text">
+    <h1>Informaticagrondleggers</h1>
+    <div class="h-img-p">
+      <img src="img/homepage_pic_links.png" alt="elektronische wegen" id='home-pic-l' />
+      <img src="img/homepage_pic_rechts.png" alt="elektronische wegen" id='home-pic-r' />
+      <h2 id="home-h2">Wat valt er hier te vinden?</h2>
+    <p class="informatie">
+      Je hebt misschien nog niet veel van ze gehoord, maar ze zijn de
+      belangrijkste figuren voor de informatica: Alan Turing, Claude Shannon
+      en Alonzo Church.
+      Er is veel tot weinig over ze te vinden, dus hier, op deze website,
+      hebben we het belangrijkste op een rijtje gezet.
+      Verder vind je hier
+      informatie over de persoon die jouw manier van leven, in deze tijd,
+      sterk beïnvloedt: Michael Stonebraker, vader van relationele
+      databases. <br />
+      Geïnteresseerd? Aarzel niet, ga op onderzoek uit!
+    </p>
+  </div>
+  </div>
+  <script src='./scoop.js'></script>
+</body>
+
+</html>
