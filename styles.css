@@ -1,996 +1,1016 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    background-color: #d3d3d3;
-    font-family: 'Nunito', sans-serif;
-    overflow-x: hidden;
+  background-color: #d3d3d3;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
 }
 
-section{
-    opacity: 0.8;
+section {
+  opacity: 0.8;
 }
 
-h1{
-    font-family: 'Rubik', sans-serif;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 1%;
-    font-size: 30px;
-    opacity: 0.8;
+h1 {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 1%;
+  font-size: 30px;
+  opacity: 0.8;
 }
 
-p > a{
-    text-decoration: underline;
+p > a {
+  text-decoration: underline;
 }
 
-h2{
-    text-align: center;
-    font-size: 30px;
-    opacity: 0.8;
+h2 {
+  text-align: center;
+  font-size: 30px;
+  opacity: 0.8;
 }
 
-p{
-    font-size: 30px;
+p {
+  font-size: 30px;
 }
 
 a {
-    color: #fff;
-    text-decoration: none;
-    opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
 }
 
 a:hover {
-    color: #6cb0ae;
-    text-decoration: underline;
+  color: #6cb0ae;
+  text-decoration: underline;
 }
 
 .mnu {
-    background-color: #270d7d;
-    margin-top: 0px;
-    height: 13vh;
-    display: flex;
-    justify-content: space-evenly;
-    list-style: none;
-    padding: 15px;
+  background-color: #270d7d;
+  margin-top: 0px;
+  height: 13vh;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 15px;
 }
 
-.mnu_item{
-    margin-top: 12px;
-    font-size: 20px;
+.mnu_item {
+  margin-top: 12px;
+  font-size: 20px;
 }
 
-article{
-    margin-top: 2%;
-    width: 60vw;
-    margin-left: 20%;
-    text-align: left;
-    margin-bottom: 3%;
-    line-height: 40px;
+article {
+  margin-top: 2%;
+  width: 60vw;
+  margin-left: 20%;
+  text-align: left;
+  margin-bottom: 3%;
+  line-height: 40px;
 }
 
-#home{
-    pointer-events: none;
-    text-decoration: none;
-    color: #fff;
+#home {
+  pointer-events: none;
+  text-decoration: none;
+  color: #fff;
 }
 
-#home-h2{
-    margin-top: 2%;
-    margin-bottom: 3%;
+#home-h2 {
+  margin-top: 2%;
+  margin-bottom: 3%;
 }
 
-#home-pic-l{
-    position: absolute;
-    top: 12%;
-    left: 12%;
-    width: 20vw;
-    opacity: 1;
+#home-pic-l {
+  position: absolute;
+  top: 12%;
+  left: 12%;
+  width: 20vw;
+  opacity: 1;
 }
 
-#home-pic-r{
-    position: absolute;
-    top: 12%;
-    right: 12%;
-    width: 20vw;
-    opacity: 1;
+#home-pic-r {
+  position: absolute;
+  top: 12%;
+  right: 12%;
+  width: 20vw;
+  opacity: 1;
 }
 
-.table{
-    margin-top: 2%;
-    width: 60vw;
-    margin-left: 15%;
-    text-align: center;
-    margin-bottom: 3%;
-    line-height: 40px;
+.table {
+  margin-top: 2%;
+  width: 60vw;
+  text-align: center;
+  margin-bottom: 3%;
+  line-height: 40px;
 }
 
 .informatie {
-    margin-top: 2%;
-    width: 60vw;
-    margin-left: 20%;
-    margin-bottom: 3%;
-    line-height: 40px;
-    font-size: 25px;
-    opacity: 0.8;
+  margin-top: 2%;
+  width: 60vw;
+  margin-left: 20%;
+  margin-bottom: 3%;
+  line-height: 40px;
+  font-size: 25px;
+  opacity: 0.8;
 }
 
-.mnubtn{
-    background-color: #270d7d;
-    color: #fff;
-    opacity: 0.8;
-    border: none;
-    padding: 10px;
-    font-size: 20px;
-    margin-top: -25px;
-    font-family: 'Nunito', sans-serif;
+.mnubtn {
+  background-color: #270d7d;
+  color: #fff;
+  opacity: 0.8;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: -25px;
+  font-family: "Nunito", sans-serif;
 }
 
-.mnubtn:hover{
-    cursor: pointer;
+.mnubtn:hover {
+  cursor: pointer;
 }
 
-.dropdown{
-    position: relative;
-    display: inline-block;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.dropdown-content{
-    border-radius: 10px;
-    background-color: #270d7d;
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 2;
+.dropdown-content {
+  border-radius: 10px;
+  background-color: #270d7d;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 2;
 }
 
-.dropdown-content a{
-    color: #fff;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-radius: 10px;
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 10px;
 }
 
-.dropdown-content a:hover{
-    background-color: #240d6e;
-    text-decoration: underline;
-    color: #6cb0ae;
+.dropdown-content a:hover {
+  background-color: #240d6e;
+  text-decoration: underline;
+  color: #6cb0ae;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-span{
-    text-decoration: underline;
+span {
+  text-decoration: underline;
 }
 
-.bio{
-    text-align: center;
+.bio {
+  text-align: center;
 }
 
-footer{
-    color: #5a5a5a;
-    padding: 15px;
-    text-align: center;
+footer {
+  color: #5a5a5a;
+  padding: 15px;
+  text-align: center;
 }
 
-.wiki{
-    color: #5a5a5a;
-    font-size: 30px;
-    opacity: 0.7;
+.wiki {
+  color: #5a5a5a;
+  font-size: 30px;
+  opacity: 0.7;
 }
 
-.click{
-    color: #000;
+.click {
+  color: #000;
 }
 
-#award{
-    height: 70vh;
-    margin: 3% 0% 3% 25%;
+#award {
+  height: 70vh;
+  margin: 3% 0% 3% 25%;
 }
 
-.hobbys{
-    list-style-type: disc;
-    font-size: 30px;
-    margin-left: 10%;
+.hobbys {
+  list-style-type: disc;
+  font-size: 30px;
+  margin-left: 10%;
 }
 
-.onzeNaam{
-    opacity: 1;
-    margin-top: 5%;
-    margin-bottom: 4%;
-    font-size: 25px;
+.onzeNaam {
+  opacity: 1;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  font-size: 25px;
 }
 
 .VULIN1 {
-    display: flex;
-    justify-content: center;
-    margin-left: 37%;
-    font-size: 21px;
-    padding: 3px;
-    margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  margin-left: 37%;
+  font-size: 21px;
+  padding: 3px;
+  margin-bottom: 70px;
 }
 
-.submit{
-    display: flex;
-    justify-content: center;
-    margin-left: 45.5%;
-    font-size: 30px;
-    background: #2a0c8c;
-    color: #fff;
-    padding: 15px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: 10%;
-    text-decoration: none;
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-left: 45.5%;
+  font-size: 30px;
+  background: #2a0c8c;
+  color: #fff;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10%;
+  text-decoration: none;
 }
 
-.Naam{
-    margin-top: 4%;
-    display: flex;
-    margin-left: 40%;
-    font-size: 21px;
-    padding: 3px;
+.Naam {
+  margin-top: 4%;
+  display: flex;
+  margin-left: 40%;
+  font-size: 21px;
+  padding: 3px;
 }
 
 .Email {
-    display: flex;
-    justify-content: center;
-    margin-left: 40%;
-    margin-top: 5px;
-    font-size: 21px;
-    padding: 3px;
-    margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 5px;
+  font-size: 21px;
+  padding: 3px;
+  margin-bottom: 15px;
 }
 
-#opnemen{
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    opacity: 1;
+#opnemen {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  opacity: 1;
 }
 
-#dienen{
-    opacity: 0.9;
-    text-decoration: none;
+#dienen {
+  opacity: 0.9;
+  text-decoration: none;
 }
 
 /* Repsonsive */
 
-.burger{
-    display: none;
-    z-index: 4;
+.burger {
+  display: none;
+  z-index: 4;
 }
 
-.burger > div{
-    width: 25px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 5px;
+.burger > div {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 5px;
 }
 
-#turimg{
-    opacity: 1;
-    height: 70vh;
-    position: relative;
-    left: 32.5%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+#turimg {
+  opacity: 1;
+  height: 70vh;
+  position: relative;
+  left: 32.5%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-#cldimg{
-    height: 70vh;
-    position: relative;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    left: 37.5%;
+#cldimg {
+  height: 70vh;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  left: 37.5%;
 }
 
-#alzimg{
-    height: 70vh;
-    position: relative;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    left: 32.5%;
+#alzimg {
+  height: 70vh;
+  position: relative;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  left: 32.5%;
 }
 
-#micimg{
-    height: 70vh;
-    margin: 3% 0% 3% 36%;
+#micimg {
+  height: 70vh;
+  margin: 3% 0% 3% 36%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 2%;
+  width: 60vw;
+  text-align: center;
+  margin-bottom: 3%;
+  line-height: 40px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
 }
 
 /* Large phones */
-@media screen and (max-width: 767px){
-    #home-pic-l, #home-pic-r{
-        display: none;
-    }
-   
-    #award{
-        height: 40vh;
-    }
+@media screen and (max-width: 767px) {
+  #home-pic-l,
+  #home-pic-r {
+    display: none;
+  }
 
-    #ffd{
-        width: 80vw;
-    }
+  #award {
+    height: 40vh;
+  }
 
-    #rd{
-        margin-left: -20%;
-    }
+  #ffd {
+    width: 80vw;
+  }
 
-    p{
-        font-size: 20px;
-    }
-    
-    #turimg{
-        height: 50vh;
-    }
-    
-    nav{
-        height: 10vh;
-        background-color: #270d7d;
-        opacity: 1;
-    }
+  #rd {
+    margin-left: -20%;
+  }
 
-    .burger{
-        display: block;
-        width: 100vw;
-        padding-top: 2%;
-        margin-left: 47.5%;
-        opacity: 1;
-    }
+  p {
+    font-size: 20px;
+  }
 
-    .mnu {
-        position: absolute;
-        height: 80vh;
-        top: 10vh;
-        width: 100vw;
-        background-color: #240d6e;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-    }
+  #turimg {
+    height: 50vh;
+  }
 
-    h1{
-        font-family: 'Rubik', sans-serif;
-        text-align: center;
-        margin-left: 10%;
-        margin-top: 50px;
-        margin-bottom: 1%;
-        font-size: 30px;
-        opacity: 0.8;
-        display: block;
-    }
+  nav {
+    height: 10vh;
+    background-color: #270d7d;
+    opacity: 1;
+  }
 
-    h2{
-        font-size: 30px;
-        text-align: center;
-        margin-top: 4%;
-        display: block;
-        opacity: 0.7;
-        margin-bottom: 15px;
-    }
+  .burger {
+    display: block;
+    width: 100vw;
+    padding-top: 2%;
+    margin-left: 47.5%;
+    opacity: 1;
+  }
 
-    .informatie {
-        width: 80vw;
-        margin-left: 15%;
-        text-align: left;
-        margin-bottom: 3%;
-        line-height: 35px;
-        font-size: 20px;
-        opacity: 0.8;
-        display: block;
-    }    
+  .mnu {
+    position: absolute;
+    height: 80vh;
+    top: 10vh;
+    width: 100vw;
+    background-color: #240d6e;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
 
-    .hobbys{
-        font-size: 20px;
-    }
+  h1 {
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 1%;
+    font-size: 30px;
+    opacity: 0.8;
+    display: block;
+  }
 
-    .mnubtn{
-        background-color:#240d6e;
-    }
-    
-    article, .bio{
-        margin-top: 2%;
-        width: 80vw;
-        margin-left: 15%;
-        text-align: left;
-        margin-bottom: 3%;
-        line-height: 35px;
-        opacity: 0.8;
-        font-size: 20px;
-    }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 4%;
+    display: block;
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
 
-    .wiki{
-        font-size: 20px;
-    }
+  .informatie {
+    width: 80vw;
+    margin-left: 15%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 35px;
+    font-size: 20px;
+    opacity: 0.8;
+    display: block;
+  }
 
-    #opnemen{
-        font-size: 35px;
-        margin-bottom: 7.5%;
-    }
+  .hobbys {
+    font-size: 20px;
+  }
 
-    .Naam{
-        margin-left: 38%;
-    }
+  .mnubtn {
+    background-color: #240d6e;
+  }
 
-    .Email{
-        margin-left: 38%;
-        margin-bottom: 4%;
-    }
+  article,
+  .bio {
+    margin-top: 2%;
+    width: 80vw;
+    margin-left: 15%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 35px;
+    opacity: 0.8;
+    font-size: 20px;
+  }
 
-    .VULIN1{
-        margin-left: 33%;
-    }
+  .wiki {
+    font-size: 20px;
+  }
+
+  #opnemen {
+    font-size: 35px;
+    margin-bottom: 7.5%;
+  }
+
+  .Naam {
+    margin-left: 38%;
+  }
+
+  .Email {
+    margin-left: 38%;
+    margin-bottom: 4%;
+  }
+
+  .VULIN1 {
+    margin-left: 33%;
+  }
 }
 
 /*iPad portrait*/
-@media screen and (max-width: 768px){
-    nav{
-        height: 10vh;
-        background-color: #270d7d;
-        opacity: 1;
-    }
+@media screen and (max-width: 768px) {
+  nav {
+    height: 10vh;
+    background-color: #270d7d;
+    opacity: 1;
+  }
 
-    #award{
-        height: 30vh;
-        margin-left: 21%;
-    }
+  #award {
+    height: 30vh;
+    margin-left: 21%;
+  }
 
-    #turimg, #cldimg, #alzimg{
-        height: 60vh;
-        margin-left: -10%;
-        margin-bottom: 10%;
-    }
+  #turimg,
+  #cldimg,
+  #alzimg {
+    height: 60vh;
+    margin-left: -10%;
+    margin-bottom: 10%;
+  }
 
-    #micimg{
-        height: 60vh;
-        margin-left: 20%;
-        margin-bottom: 10%;
-    }
+  #micimg {
+    height: 60vh;
+    margin-left: 20%;
+    margin-bottom: 10%;
+  }
 
-    #rd{
-        margin-left: -20%;
-    }
+  #rd {
+    margin-left: -20%;
+  }
 
-    #ffd{
-        margin-left: -10%;
-    }
+  #ffd {
+    margin-left: -10%;
+  }
 
-    .onzeNaam{
-        font-size: 30px;
-    }
+  .onzeNaam {
+    font-size: 30px;
+  }
 
-    .burger{
-        display: block;
-        width: 100vw;
-        padding-top: 4.5%;
-        margin-left: 47.5%;
-        opacity: 1;
-    }
+  .burger {
+    display: block;
+    width: 100vw;
+    padding-top: 4.5%;
+    margin-left: 47.5%;
+    opacity: 1;
+  }
 
-    .mnu {
-        position: absolute;
-        height: 80vh;
-        top: 10vh;
-        width: 100vw;
-        background-color: #240d6e;
-        flex-direction: column;
-        align-items: center;
-        display: none;
-    }
+  .mnu {
+    position: absolute;
+    height: 80vh;
+    top: 10vh;
+    width: 100vw;
+    background-color: #240d6e;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
 
-    .mnubtn{
-        background-color:#240d6e;
-    }
+  .mnubtn {
+    background-color: #240d6e;
+  }
 
-    #home-pic-r{
-        top: 13.9%;
-        right: 2%;
-    }
+  #home-pic-r {
+    top: 13.9%;
+    right: 2%;
+  }
 
-    #home-pic-l{
-        top: 13.9%;
-        left: 2%;
-    }
+  #home-pic-l {
+    top: 13.9%;
+    left: 2%;
+  }
 }
 
 /*iPhone 6/7/8 Plus portrait */
-@media screen and (max-width: 530px){
-    #home-pic-l, #home-pic-r{
-        display: none;
-    }
+@media screen and (max-width: 530px) {
+  #home-pic-l,
+  #home-pic-r {
+    display: none;
+  }
 
-    p{
-        font-size: 20px;
-    }
+  p {
+    font-size: 20px;
+  }
 
-    #award{
-        height: 30vh;
-    }
+  #award {
+    height: 30vh;
+  }
 
-    #ffd{
-        display: none;
-    }
+  #ffd {
+    display: none;
+  }
 
-    #rd{
-        margin-left: -50%;
-    }
+  #rd {
+    margin-left: -50%;
+  }
 
-    .burger{
-        display: block;
-        width: 100vw;
-        padding-top: 5%;
-        margin-left: 47.5%;
-        opacity: 1;
-    }
+  .burger {
+    display: block;
+    width: 100vw;
+    padding-top: 5%;
+    margin-left: 47.5%;
+    opacity: 1;
+  }
 
-    h1{
-        margin-left: 4%;
-        margin-top: 50px;
-        margin-bottom: 1%;
-        font-size: 30px;
-        opacity: 0.8;
-        display: block;
-        font-size: 30px;
-    }
+  h1 {
+    margin-left: 4%;
+    margin-top: 50px;
+    margin-bottom: 1%;
+    font-size: 30px;
+    opacity: 0.8;
+    display: block;
+    font-size: 30px;
+  }
 
-    h2{
-        font-size: 25px;
-        margin-bottom: 2%;
-    }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 2%;
+  }
 
-    .informatie {
-        width: 90vw;
-        margin-left: 8%;
-        text-align: left;
-        margin-bottom: 3%;
-        line-height: 35px;
-        font-size: 20px;
-        opacity: 0.8;
-        display: block;
-    }    
+  .informatie {
+    width: 90vw;
+    margin-left: 8%;
+    text-align: left;
+    margin-bottom: 3%;
+    line-height: 35px;
+    font-size: 20px;
+    opacity: 0.8;
+    display: block;
+  }
 
-    .hobbys{
-        font-size: 20px;
-    }
+  .hobbys {
+    font-size: 20px;
+  }
 
-    article{
-        margin-top: 2%;
-        width: 70vw;
-        margin-left: 15%;
-        text-align: left;
-        margin-bottom: 3%;
-        font-size: 15px;
-    }
+  article {
+    margin-top: 2%;
+    width: 70vw;
+    margin-left: 15%;
+    text-align: left;
+    margin-bottom: 3%;
+    font-size: 15px;
+  }
 
-    .wiki{
-        font-size: 20px;
-    }
+  .wiki {
+    font-size: 20px;
+  }
 
-    #turimg{
-        height: 50vh;
-        position: relative;
-        left: 30%;
-    }
+  #turimg {
+    height: 50vh;
+    position: relative;
+    left: 30%;
+  }
 
-    #cldimg{
-        height: 50vh;
-        position: relative;
-        left: 32.5%;
-    }
-    
-    #alzimg{
-        height: 50vh;
-        position: relative;
-        left: 30.5%;
-    }
+  #cldimg {
+    height: 50vh;
+    position: relative;
+    left: 32.5%;
+  }
 
-    #micimg{
-        position: relative;
-        right: 20%;
-    }
+  #alzimg {
+    height: 50vh;
+    position: relative;
+    left: 30.5%;
+  }
 
-    #opnemen{
-        font-size: 30px;
-    }
+  #micimg {
+    position: relative;
+    right: 20%;
+  }
 
-    .Naam{
-        margin-left: 23%;
-        width: 65vw;
-    }
+  #opnemen {
+    font-size: 30px;
+  }
 
-    .Email{
-        margin-left: 23%;
-        width: 65vw;
-    }
+  .Naam {
+    margin-left: 23%;
+    width: 65vw;
+  }
 
-    .VULIN1{
-        margin-left: 23%;
-        width: 65vw;
-    }
+  .Email {
+    margin-left: 23%;
+    width: 65vw;
+  }
 
-    .submit{
-        margin-left: 42%;
-    }
+  .VULIN1 {
+    margin-left: 23%;
+    width: 65vw;
+  }
+
+  .submit {
+    margin-left: 42%;
+  }
 }
 
 /*Small phones*/
-@media screen and (max-width: 380px){
-    #home-pic-l, #home-pic-r{
-        display: none;
-    }
- 
-    #opnemen{
-        font-size: 20px;
-    }
+@media screen and (max-width: 380px) {
+  #home-pic-l,
+  #home-pic-r {
+    display: none;
+  }
 
-    .submit{
-        width: 30vw;
-        margin-left: 38%;
-    }
+  #opnemen {
+    font-size: 20px;
+  }
 
-    #dienen{
-        font-size: 20px;
-    }
+  .submit {
+    width: 30vw;
+    margin-left: 38%;
+  }
 
-    #ffd, #rd{
-        display: none;
-    }
-    
-    #award{
-        display: none;
-    }
+  #dienen {
+    font-size: 20px;
+  }
 
-    .burger{
-        display: block;
-        width: 100vw;
-        padding-top: 3%;
-        margin-left: 47.5%;
-        opacity: 1;
-    }
+  #ffd,
+  #rd {
+    display: none;
+  }
 
-    #cldimg{
-        position: relative;
-        left: 10%;
-    }
+  #award {
+    display: none;
+  }
 
-    #turimg{
-        position: relative;
-        left: 17.5%;
-    }
+  .burger {
+    display: block;
+    width: 100vw;
+    padding-top: 3%;
+    margin-left: 47.5%;
+    opacity: 1;
+  }
 
-    #alzimg{
-        height: 50vh;
-        position: relative;
-        left: 20%;
-    }
+  #cldimg {
+    position: relative;
+    left: 10%;
+  }
 
-    #micimg{
-        position: relative;
-        height: 60vh;
-        right: 30%;
-    }
+  #turimg {
+    position: relative;
+    left: 17.5%;
+  }
+
+  #alzimg {
+    height: 50vh;
+    position: relative;
+    left: 20%;
+  }
+
+  #micimg {
+    position: relative;
+    height: 60vh;
+    right: 30%;
+  }
 }
 
 /*Breaking point, small tablets*/
 @media screen and (min-width: 769px) and (max-width: 1000px) {
-    #turimg{
-        position: relative;
-        left: 3%;
-    }
-    .mnu_item{
-        margin-top: 20px;
-        font-size: 13px;
-    }
+  #turimg {
+    position: relative;
+    left: 3%;
+  }
+  .mnu_item {
+    margin-top: 20px;
+    font-size: 13px;
+  }
 
-    .VULIN1 {
-        margin-left: 33.5%;
-    }
-    
-    .submit{
-        margin-left: 43.5%;
-    }
-    
-    .Naam{
-        margin-left: 37.5%;
-    }
-    
-    .Email {
-        margin-left: 37.5%;
-    }
+  .VULIN1 {
+    margin-left: 33.5%;
+  }
 
-    #award{
-        height: 50vh;
-    }
+  .submit {
+    margin-left: 43.5%;
+  }
 
-    .bio{
-        opacity: 0.7;
-    }
+  .Naam {
+    margin-left: 37.5%;
+  }
 
-    .mnubtn{
-        font-size: 13px;
-    }
+  .Email {
+    margin-left: 37.5%;
+  }
 
-    .homepage-pic{
-        position: relative;
-        right: 60%;
-    }
+  #award {
+    height: 50vh;
+  }
 
-    .informatie{
-        width: 70vw;
-        margin-left: 17.5%;
-        text-align: left;
-    }
+  .bio {
+    opacity: 0.7;
+  }
 
-    .hobbys{
-        font-size: 20px;
-    }
+  .mnubtn {
+    font-size: 13px;
+  }
 
-    article{
-        width: 70vw;
-        margin-left: 17.5%;
-        text-align: left;
-        opacity: 0.7;
-    }
+  .homepage-pic {
+    position: relative;
+    right: 60%;
+  }
 
-    p{
-        font-size: 20px;
-        line-height: 35px;
-    }
+  .informatie {
+    width: 70vw;
+    margin-left: 17.5%;
+    text-align: left;
+  }
 
-    h2{
-        font-size: 25px;
-        margin-bottom: 15px;
-    }
+  .hobbys {
+    font-size: 20px;
+  }
 
-    .wiki{
-        font-size: 20px;
-    }
+  article {
+    width: 70vw;
+    margin-left: 17.5%;
+    text-align: left;
+    opacity: 0.7;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .wiki {
+    font-size: 20px;
+  }
 }
 
-@media screen and (min-width: 1001px) and (max-width: 1023px){
-    .hobbys{
-        font-size: 25px;
-    }
+@media screen and (min-width: 1001px) and (max-width: 1023px) {
+  .hobbys {
+    font-size: 25px;
+  }
 
-    h1{
-        font-size: 35px;
-    }
+  h1 {
+    font-size: 35px;
+  }
 
-    #award{
-        height: 45vh;
-    }
+  #award {
+    height: 45vh;
+  }
 
-    h2{
-        font-size: 30px;
-        opacity: 0.7;
-        margin-bottom: 15px;
-    }
+  h2 {
+    font-size: 30px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
 
-    p{
-        font-size: 25px;
-    }
+  p {
+    font-size: 25px;
+  }
 
-    article{
-        opacity: 0.7;
-        line-height: 40px;
-    }
+  article {
+    opacity: 0.7;
+    line-height: 40px;
+  }
 
-    .bio{
-        opacity: 0.7;
-    }
+  .bio {
+    opacity: 0.7;
+  }
 
-    .informatie{
-        font-size: 25px;
-        line-height: 45px;
-        width: 70vw;
-        margin-left: 17.5%;
-        opacity: 0.7;
-    }
+  .informatie {
+    font-size: 25px;
+    line-height: 45px;
+    width: 70vw;
+    margin-left: 17.5%;
+    opacity: 0.7;
+  }
 
-    .homepage-pic{
-        position: relative;
-        right: 10%;
-    }
+  .homepage-pic {
+    position: relative;
+    right: 10%;
+  }
 
-    .mnu_item{
-        margin-top: 17px;
-        font-size: 17px;   
-    }
+  .mnu_item {
+    margin-top: 17px;
+    font-size: 17px;
+  }
 
-    .mnubtn{
-        font-size: 17px;
-    }
+  .mnubtn {
+    font-size: 17px;
+  }
 
-    .wiki{
-        font-size: 25px;
-    }
+  .wiki {
+    font-size: 25px;
+  }
 
-    #turimg{
-        position: relative;
-        left: 37.5%;
-        margin-bottom: 15px;
-    }
+  #turimg {
+    position: relative;
+    left: 37.5%;
+    margin-bottom: 15px;
+  }
 }
 
 /*iPad landscape*/
-@media screen and (min-width: 1023px) and (max-width: 1222px){
-    #home-pic-l{
-        top: 18%;
-        left: 7%;
-    }
-    
-    #home-pic-r{
-        top: 18%;
-        right: 7%;
-    }
+@media screen and (min-width: 1023px) and (max-width: 1222px) {
+  #home-pic-l {
+    top: 18%;
+    left: 7%;
+  }
 
-    #turimg{
-        margin-bottom: 4%;
-    }
+  #home-pic-r {
+    top: 18%;
+    right: 7%;
+  }
 
-    #cldimg{
-        margin-left: -3.5%;
-    }
+  #turimg {
+    margin-bottom: 4%;
+  }
 
-    #micimg{
-        margin-left: 30%;
-    }
+  #cldimg {
+    margin-left: -3.5%;
+  }
 
-    #award{
-        height: 50vh;
-        margin-left: 22.5%;
-    }
-} 
+  #micimg {
+    margin-left: 30%;
+  }
 
-@media screen and (min-width: 1223px) and (max-width: 1299px){
-    h1{
-        font-size: 35px;
-        opacity: 0.7;
-    }
-
-    h2{
-        font-size: 30px;
-        opacity: 0.7;
-        margin-bottom: 15px;
-    }
-
-    p{
-        font-size: 25px;
-        line-height: 40px;
-    }
-
-    .informatie{
-        font-size: 25px;
-        line-height: 50px;
-        opacity: 0.7;
-    }
-
-    .bio{
-        opacity: 0.7;
-    }
-
-    article{
-        font-size: 25px;
-        line-height: 50px;
-        opacity: 0.7;
-    }
-
-    .hobbys{
-        font-size: 25px;
-    }
-
-    .mnu_item{
-        margin-top: 13px;
-        font-size: 20px;
-    }
-
-    .mnubtn{
-        font-size: 20px;
-    }
-
-    #turimg{
-        position: relative;
-        left: 35%;
-    }
-
-    .wiki{
-        font-size: 25px;
-    }
-
-    
-    #home-pic-l{
-        left: 11%;
-        margin-top: 1.4%;
-    }
-
-    #home-pic-r{
-        right: 11%;
-        margin-top: 1.4%;
-    }
+  #award {
+    height: 50vh;
+    margin-left: 22.5%;
+  }
 }
 
-@media screen and (min-width: 1299px) and (max-width: 1364px){
-    h1{
-        font-size: 50px;
-    }
-    
-    h2{
-        font-size: 40px;
-    }
+@media screen and (min-width: 1223px) and (max-width: 1299px) {
+  h1 {
+    font-size: 35px;
+    opacity: 0.7;
+  }
 
-    .informatie{
-        font-size: 28px;
-        line-height: 46px;
-        margin-top: 4%;
-    }
+  h2 {
+    font-size: 30px;
+    opacity: 0.7;
+    margin-bottom: 15px;
+  }
 
-    .mnu_item{
-        margin-top: 1.5%;
-        font-size: 25px;
-    }
+  p {
+    font-size: 25px;
+    line-height: 40px;
+  }
 
-    .mnubtn{
-        font-size: 25px;
-    }
-    
-    article{
-        font-size: 30px;
-        line-height: 55px;
-    }
+  .informatie {
+    font-size: 25px;
+    line-height: 50px;
+    opacity: 0.7;
+  }
 
-    #home-pic-l{
-        left: 6%;
-    }
+  .bio {
+    opacity: 0.7;
+  }
 
-    #home-pic-r{
-        right: 6%;
-    }
+  article {
+    font-size: 25px;
+    line-height: 50px;
+    opacity: 0.7;
+  }
+
+  .hobbys {
+    font-size: 25px;
+  }
+
+  .mnu_item {
+    margin-top: 13px;
+    font-size: 20px;
+  }
+
+  .mnubtn {
+    font-size: 20px;
+  }
+
+  #turimg {
+    position: relative;
+    left: 35%;
+  }
+
+  .wiki {
+    font-size: 25px;
+  }
+
+  #home-pic-l {
+    left: 11%;
+    margin-top: 1.4%;
+  }
+
+  #home-pic-r {
+    right: 11%;
+    margin-top: 1.4%;
+  }
+}
+
+@media screen and (min-width: 1299px) and (max-width: 1364px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .informatie {
+    font-size: 28px;
+    line-height: 46px;
+    margin-top: 4%;
+  }
+
+  .mnu_item {
+    margin-top: 1.5%;
+    font-size: 25px;
+  }
+
+  .mnubtn {
+    font-size: 25px;
+  }
+
+  article {
+    font-size: 30px;
+    line-height: 55px;
+  }
+
+  #home-pic-l {
+    left: 6%;
+  }
+
+  #home-pic-r {
+    right: 6%;
+  }
 }
 
 /*iPad Pro landscape*/
-@media screen and (min-width: 1365px){
-    .onzeNaam{
-        font-size: 40px;
-    }
-    
-    #turimg{
-        margin-bottom: 5%;
-    }
+@media screen and (min-width: 1365px) {
+  .onzeNaam {
+    font-size: 40px;
+  }
 
-    #cldimg{
-        height: 70vh;
-        margin-left: -2%;
-        margin-bottom: 5%;
-    }
+  #turimg {
+    margin-bottom: 5%;
+  }
 
-    #micimg{
-        margin-left: 29%;
-    }
+  #cldimg {
+    height: 70vh;
+    margin-left: -2%;
+    margin-bottom: 5%;
+  }
 
-    #ffd{
-        margin-left: 20%;
-    }
+  #micimg {
+    margin-left: 29%;
+  }
 
-    #rd{
-        margin-left: 15%;
-    }
+  #ffd {
+    margin-left: 20%;
+  }
 
-    #award{
-        height: 60vh;
-        margin-left: 17.5%;
-    }
+  #rd {
+    margin-left: 15%;
+  }
 
-    .mnu{
-        padding-top: 30px;
-    }
+  #award {
+    height: 60vh;
+    margin-left: 17.5%;
+  }
+
+  .mnu {
+    padding-top: 30px;
+  }
 }
